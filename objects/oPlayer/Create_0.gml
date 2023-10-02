@@ -16,3 +16,4 @@ sprite[DOWN] = sPlayer_DOWN;
 face = DOWN;
 
 
+interaction_range = 2;

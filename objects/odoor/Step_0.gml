@@ -1,3 +1,4 @@
-image_index = 0;
+//image_index = 0;
 
-collision = oSwitch.state;
+// due to not using true/false some logic is required
+collision = !oSwitch.state

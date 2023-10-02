@@ -103,7 +103,40 @@ if place_meeting(x, y + yspd, oWall)
 	yspd = 0;	
 	}
 
+// collision for doors. this should be done iteratively to save code repetition
+// works for now
 
+if place_meeting(x + xspd, y, odoor)
+	{
+		if odoor.collision == 1
+		{
+			xspd = 0;
+		}
+	}
+if place_meeting(x, y + yspd, odoor)
+	{
+		if odoor.collision == 1
+		{
+			yspd = 0;
+		}
+	}
+	
+if place_meeting(x + xspd, y, oDoorUnlocked)
+	{
+		if oDoorUnlocked.collision == 1
+		{
+			xspd = 0;
+		}
+	}
+if place_meeting(x, y + yspd, oDoorUnlocked)
+	{
+		if oDoorUnlocked.collision == 1
+		{
+			yspd = 0;
+		}
+	}	
+
+// end collision for doors
 
 //move player
 x += xspd;
@@ -119,7 +152,15 @@ if xspd == 0 && yspd = 0
 depth = -y;
 
 
-
+// interactions for doors
+if keyboard_check_pressed(vk_enter)
+{
+	var _closest_target = instance_nearest(x, y, oDoorUnlocked);	
+	if distance_to_object(_closest_target) < interaction_range
+	{
+		_closest_target.state = not _closest_target.state
+	}
+}
 
 
 //Let me in Matthias...

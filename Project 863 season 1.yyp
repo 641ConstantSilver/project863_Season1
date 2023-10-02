@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"oSpeakBlock","path":"objects/oSpeakBlock/oSpeakBlock.yy",},},
@@ -75,6 +75,7 @@
     {"id":{"name":"font_title","path":"fonts/font_title/font_title.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"_1image","path":"sprites/_1image/_1image.yy",},},
+    {"id":{"name":"oDoorUnlocked","path":"objects/oDoorUnlocked/oDoorUnlocked.yy",},},
     {"id":{"name":"oWoods","path":"objects/oWoods/oWoods.yy",},},
     {"id":{"name":"rBG1","path":"rooms/rBG1/rBG1.yy",},},
     {"id":{"name":"font_subtitle","path":"fonts/font_subtitle/font_subtitle.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"ambient","path":"sounds/ambient/ambient.yy",},},
     {"id":{"name":"Tileset_Props","path":"tilesets/Tileset_Props/Tileset_Props.yy",},},
     {"id":{"name":"oSwitch","path":"objects/oSwitch/oSwitch.yy",},},
+    {"id":{"name":"sDoorOpen","path":"sprites/sDoorOpen/sDoorOpen.yy",},},
     {"id":{"name":"TitleScreen","path":"sprites/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"odoor","path":"objects/odoor/odoor.yy",},},
     {"id":{"name":"image","path":"sprites/image/image.yy",},},
