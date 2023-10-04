@@ -123,12 +123,12 @@
     {"id":{"name":"sWoods_Right","path":"sprites/sWoods_Right/sWoods_Right.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Testingroom","path":"rooms/Testingroom/Testingroom.yy",},},
     {"roomId":{"name":"TitleMenu","path":"rooms/TitleMenu/TitleMenu.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"rBG1","path":"rooms/rBG1/rBG1.yy",},},
     {"roomId":{"name":"video","path":"rooms/video/video.yy",},},
     {"roomId":{"name":"r2nd","path":"rooms/r2nd/r2nd.yy",},},
-    {"roomId":{"name":"Testingroom","path":"rooms/Testingroom/Testingroom.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
